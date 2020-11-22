@@ -51,3 +51,5 @@ displayMenu.addEventListener('click', function(){
 // if you resize the window after click the menu button, the 'display' classs reamins as same.
 
 //menu close automatically.
+//switch card to list npm 
+//add max-width or 

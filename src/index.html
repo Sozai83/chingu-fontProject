@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
     <script src="https://kit.fontawesome.com/109e5d926d.js" crossorigin="anonymous"></script>
     <title>Favorite Fonts</title>
@@ -22,6 +23,7 @@
     </header>
     <div class = "container">
         <div class= "input">
+                <input type="text" class="search" id="search" placeholder="Search fonts here" maxlength="50">
                 <input type="text" class="add-word" id="inputText" placeholder="Type here" maxlength="950">
             <div class ="buttons">
                 <label for="font-size">Font size</label>
@@ -39,14 +41,15 @@
 
     <div class = "container">
         <div class = "fonts">
-            <div class= "font Ariral">
-                <h3>Ariral</h3>
+            <div class= "font open-sans">
+                <h3>Open sans</h3>
+                <button class ="delete"><b>+</b></button>
                 <div class = "text-container">
                     <p class = "text-box">Hello world</p>
                 </div>
             </div>
-            <div class= "font times-new-roman">
-                <h3>Times New Roman</h3>
+            <div class= "font montserrat">
+                <h3>Montserrat</h3>
                 <div class = "text-container">
                     <p class = "text-box">Hello world</p>
                 </div>
